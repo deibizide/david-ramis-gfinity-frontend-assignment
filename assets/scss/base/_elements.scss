@@ -1,0 +1,29 @@
+@font-face {
+	font-family: "bold";
+	src: local("fonts"), url(~static/fonts/akzidenzgrotesk-bold-webfont.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "medium";
+	src: local("fonts"), url(~static/fonts/akzidenzgrotesk-medium-webfont.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "regular";
+	src: local("fonts"), url(~static/fonts/akzidenzgrotesk-regular-webfont.ttf) format("truetype");
+}
+@font-face {
+	font-family: "light";
+	src: local("fonts"), url(~static/fonts/akzidenzgrotesk-light-webfont.ttf) format("truetype");
+}
+
+body {
+	font-size: 16px;
+	word-spacing: 1px;
+	color: var(--black);
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
